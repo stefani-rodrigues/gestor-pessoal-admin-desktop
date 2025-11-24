@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="231.0" prefWidth="366.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.senac.gestorpessoaladmimconfig.controller.ConfigAdminController">
+   <children>
+      <TextField fx:id="textNome" layoutX="26.0" layoutY="66.0" />
+      <TextField fx:id="textEmail" layoutX="26.0" layoutY="117.0" />
+      <TextField fx:id="textSenha" layoutX="202.0" layoutY="117.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="textCpf" layoutX="199.0" layoutY="66.0" prefHeight="25.0" prefWidth="149.0" />
+      <Label layoutX="22.0" layoutY="38.0" text="Nome" />
+      <Label layoutX="24.0" layoutY="100.0" text="Email" />
+      <Label layoutX="204.0" layoutY="100.0" prefHeight="17.0" prefWidth="33.0" text="Senha" />
+      <Label layoutX="199.0" layoutY="38.0" text="CPF" />
+      <Button layoutX="29.0" layoutY="197.0" mnemonicParsing="false" text="Voltar" onAction="#voltar" />
+      <Button layoutX="299.0" layoutY="197.0" mnemonicParsing="false"  text="Enviar "  onAction="#cadastroAdim"/>
+   </children>
+</AnchorPane>

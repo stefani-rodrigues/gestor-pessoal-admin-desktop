@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.senac.gestorpessoaladmimconfig.controller.MenuController">
+   <children>
+      <Button layoutX="243.0" layoutY="153.0" mnemonicParsing="false" onAction="#sair" prefHeight="24.0" prefWidth="36.0" text="Sair" />
+      <Button layoutX="47.0" layoutY="67.0" mnemonicParsing="false" onAction="#abrirMenuApiBanco" prefHeight="25.0" prefWidth="191.0" text="Teste API e banco" />
+      <Button layoutX="47.0" layoutY="112.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="191.0" text="Configuração do Administrador"  onAction="#abrirConfiguracaoAdim" />
+   </children>
+</AnchorPane>
